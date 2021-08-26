@@ -7,10 +7,16 @@
         background-color: pink;
         position: relative;
         top: 10vh;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         > *{
             width: 100vw;
             height: 90vh;
+            scroll-snap-align: start;
         }
     }
 }
