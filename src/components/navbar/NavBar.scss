@@ -8,7 +8,7 @@
     color: $mainColor;
     top: 0;
     z-index: 1;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 
     .wrapper{
         padding: 25px 25px;
@@ -60,7 +60,7 @@
                     height: 3px;
                     background-color: $mainColor;
                     transform-origin: left;
-                    transition: all 1s ease;
+                    transition: all 0.5s ease;
                 }
                 scrollbar-width: none;
                 &::-webkit-scrollbar{
