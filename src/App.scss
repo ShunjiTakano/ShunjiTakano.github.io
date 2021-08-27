@@ -7,11 +7,13 @@
         background-color: pink;
         position: relative;
         top: 10vh;
+        scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none;
         &::-webkit-scrollbar{
             display: none;
         }
+
 
         > *{
             width: 100vw;
