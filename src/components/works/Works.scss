@@ -1,3 +1,83 @@
 .works{
-    background-color: darkgoldenrod;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .slider{
+        height: 50%;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 50%;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left{
+                    flex: 4;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer{
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+
+                        .imgContainer{
+                            width: 50px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            scrollbar-width: none;
+                            &::-webkit-scrollbar{
+                                display: none;
+                            }
+
+                            img: {
+                                width: 25px;
+                            }
+                        }
+                        h2{
+                            font-size: 24px;
+                            padding-bottom: 10px;
+                        }
+                        h3{
+                            font-size: 22px;
+                            padding-bottom: 10px;
+                        }
+                        span{
+                            font-size: 16px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            padding-bottom: 10px;
+                        }
+                        p{
+                            font-size: 18px;
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+                .right{
+                    flex: 8;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
