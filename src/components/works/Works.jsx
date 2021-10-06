@@ -1,5 +1,6 @@
 import "./Works.scss"
-
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 export default function Works() {
     return (
         <div className="works" id="works">
@@ -19,10 +20,13 @@ export default function Works() {
                                 <span>Projects</span>
                             </div>
                         </div>
-                        <div className="right"></div>
+                        <div className="right">
+                        </div>
                     </div>
                 </div>
             </div>
+            <ArrowBackIosIcon className="arrow left"/>
+            <ArrowForwardIosIcon className="arrow right"/>
         </div>
     )
 }
