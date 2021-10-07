@@ -1,4 +1,3 @@
-import { MenuOpen } from "@material-ui/icons"
 import "./sidebar.scss"
 import SidebarList from "./SidebarList"
 
