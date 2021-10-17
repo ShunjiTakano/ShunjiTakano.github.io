@@ -15,7 +15,7 @@ export const workdata = [
         date: "November 2019 - February 2020",
         desc:
           "Created a proof of concept optical character recognition application using Python, Machine learning (Keras) and AWS services (Textract, Lambda, S3). Built a fully automated end-to-end pipeline, where users can upload an image and the image is processed and results are uploaded automatically.",
-        img: "./assets/FraedomTextract.png",
+        img: "./assets/FraedomTextractFlow.png",
       },
       {
         id: "3",
