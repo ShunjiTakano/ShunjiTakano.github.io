@@ -26,5 +26,4 @@ export const workdata = [
           "Worked under an adjunct assistant professor to conducted research, which aimed to estimate manufacturing costs of electrical transformers using natural language processing techniques. Created a web app in Django, which allowed companies to estimate the cost of manufacturing a transformer through an AI chatbot. Invited to the IIMA2019 conference in New York to present our findings.",
         img: "./assets/NTHUGroup.jpg",
       }
-  
   ];
