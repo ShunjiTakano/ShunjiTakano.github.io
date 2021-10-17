@@ -17,6 +17,19 @@
         &.right{
             right: 100px;
         }
+        &.bottom{
+            bottom: 100px;
+            animation: arrowBlink 2s infinite;
+        }
+
+        @keyframes arrowBlink{
+            100%{
+                opacity: 0.4;
+            }
+            0%{
+                opacity: 0.8;
+            }
+        }
 
     }
 

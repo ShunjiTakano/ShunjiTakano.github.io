@@ -12,7 +12,7 @@ export default function Introduction() {
             showCursor: true,
             backDelay: 1000,
             backSpeed: 70,
-            strings: ["Software Engineer", "Coding Enthusiast", "Cloud Developer", "Food Lover"] 
+            strings: ["Software Engineer", "Cloud Enthusiast", "Musician", "Food Lover"] 
         })
     },[]);
 
@@ -25,11 +25,11 @@ export default function Introduction() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hello,</h2>
+                    <h2>Hey There!</h2>
                     <h1>I'm Shunji Takano</h1>
                     <h3>A <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#works">
                     <KeyboardArrowDownIcon style={{fontSize:100}} className="arrow" />
                 </a>
             </div>
