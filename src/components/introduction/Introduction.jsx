@@ -12,7 +12,7 @@ export default function Introduction() {
             showCursor: true,
             backDelay: 1000,
             backSpeed: 70,
-            strings: ["Software Engineer", "Cloud Enthusiast", "Musician", "Food Lover"] 
+            strings: ["Translator", "Pottery Enthusiast", "Foodie"] 
         })
     },[]);
 
@@ -20,13 +20,13 @@ export default function Introduction() {
         <div className="introduction" id="introduction">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/profile.png" alt="" />
+                    <img src="assets/profile.png" alt="yes" />
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
                     <h2>Hey There!</h2>
-                    <h1>I'm Shunji Takano</h1>
+                    <h1>I'm Fadhilla Hasan</h1>
                     <h3>A <span ref={textRef}></span></h3>
                 </div>
                 <a href="#works">
