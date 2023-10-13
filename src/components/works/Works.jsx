@@ -38,7 +38,7 @@ export default function Works() {
             </div>
             <ArrowBackIosIcon className="arrow left" onClick={()=>handleClick("left")}/>
             <ArrowForwardIosIcon className="arrow right" onClick={()=>handleClick("right")}/>
-            <a href="#portfolio"><KeyboardArrowDownIcon style={{fontSize:100}} className="arrow bottom" /></a>
+            <a href="#contact"><KeyboardArrowDownIcon style={{fontSize:100}} className="arrow bottom" /></a>
             
         </div>
     )

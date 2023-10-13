@@ -22,6 +22,7 @@ export default function Contact() {
                     <textarea placeholder="Message" id="message" name="message"/>
                     <ValidationError prefix="Message" field="message" errors={state.errors}/>
                     <button type="submit" disabled={state.submitting}>Send</button>
+                    {state.submitting && <span>Sending email..</span>}
                     {state.succeeded && <span>Thank you for your message. I will reply as soon as possible.</span>}
                 </form>
             </div>
